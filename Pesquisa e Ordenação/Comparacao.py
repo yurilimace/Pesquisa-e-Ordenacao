@@ -273,7 +273,7 @@ plt.plot(questao, heap_time, "k-", label='heap Sort')
  
  
 plt.legend(('Tempo de geração','Selection sort','Insertion sort','Bubble Sort','Quick Sort', 'Merge Sort', 'Shell Sort','Radix Sort','bucket Sort','bucket Sort','heap Sort'), loc='best')
-plt.title('Seleção-Inserção-Bolha-Quick-Mistura- Shell')
+plt.title('Seleção-Inserção-Bolha-Quick-Shell-Merge-bucket-radix-counting-heap')
 plt.ylabel('Tempo de ordenação')
 plt.xlabel('Número de itens na lista')
 plt.show()
